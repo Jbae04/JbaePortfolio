@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph Bae</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="snow-container" id="snow-container"></div>
+    <div class="container">
+      <header>
+        <div class="header-left">home</div>
+        <div class="header-center" id="clock">02:16:22</div>
+        <div class="header-right" id="date">wednesday, march 12, 2025</div>
+      </header>
+      <main class="content">
+        <div class="grid-container">
+          <!-- Name Card -->
+          <div class="card name-card">
+            <h1>joseph bae</h1>
+          </div>
+          <!-- About Me Card -->
+          <div class="card about-card">
+            <h2>about me</h2>
+            <div class="card-content">
+              <p>forever learner, always growing.</p>
+              <p>
+                focused on AI creation-with a passion for automating life with
+                code.
+              </p>
+            </div>
+          </div>
+          <!-- Philosophy Card -->
+          <div class="card philosophy-card">
+            <p>be better than perfect</p>
+          </div>
+          <!-- Location Card -->
+          <div class="card location-card">
+            <p>bay area based</p>
+          </div>
+          <!-- Portfolio Card -->
+          <div class="card portfolio-card">
+            <h2>projects</h2>
+            <div class="tag">new</div>
+            <a href="https://github.com/Jbae04" class="button">view</a>
+          </div>
+          <div class="card contact-card">
+            <h2>contact me</h2>
+            <div class="contact-links">
+              <a
+                href="mailto:bae.joseph04@gmail.com"
+                class="contact-button"
+                id="email-button"
+                >email</a
+              >
+              <a
+                href="https://www.linkedin.com/in/joseph-bae-9539b0249/"
+                class="contact-button"
+                >linkedin</a
+              >
+              <div class="contact-button phone-display">925-522-6701</div>
+            </div>
+          </div>
+          <!-- Experience Card -->
+          <div class="card experience-card">
+            <h2>experience</h2>
+            <div class="experience-tag">some fun work</div>
+            <div class="experience-list">
+              <a
+                href="https://github.com/Jbae04/Windows_file_Automation"
+                class="experience-item"
+                >file automation</a
+              >
+              <a
+                href="https://github.com/Jbae04/AI-Image"
+                class="experience-item"
+                >ai projects</a
+              >
+              <a
+                href="https://github.com/Jbae04/PokemonGame4667"
+                class="experience-item"
+                >game development</a
+              >
+            </div>
+          </div>
+          <!-- Theme Selector -->
+          <div class="card theme-card">
+            <h2>theme</h2>
+            <div class="theme-buttons">
+              <button
+                class="theme-button light active"
+                onclick="setTheme('light')"
+              >
+                light
+              </button>
+              <button class="theme-button dark" onclick="setTheme('dark')">
+                dark
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
