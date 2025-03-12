@@ -71,6 +71,7 @@ header {
 .header-center {
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.5px;
+  font-size: 1.05rem;
 }
 .snow-container {
   position: fixed;
@@ -88,7 +89,7 @@ header {
   height: 5px;
   background-color: var(--snow-color);
   border-radius: 50%;
-  opacity: 1;
+  opacity: 0.8;
 }
 .grid-container {
   display: grid;
@@ -135,6 +136,11 @@ header {
   align-items: center;
   justify-content: center;
 }
+.philosophy-card p,
+.location-card p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
 .location-card {
   grid-column: 1;
   grid-row: 2;
@@ -145,7 +151,7 @@ header {
 .resume-card {
   grid-column: 2;
   grid-row: 2;
-  position: relative;
+  position: right;
 }
 .contact-card {
   grid-column: 3;
@@ -186,6 +192,15 @@ header {
   text-align: center;
   transition: all 0.2s;
   min-width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+}
+.phone-display {
+  white-space: nowrap;
+  cursor: default;
+  user-select: all;
 }
 .contact-button:hover {
   background-color: var(--button-bg);
