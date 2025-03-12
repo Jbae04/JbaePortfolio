@@ -43,7 +43,7 @@ function updateDateTime() {
     const screenHeight = window.innerHeight;
   
     // Create about 50 snowflakes (reduced from 70 for better visibility of each)
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 70; i++) {
       const snowflake = document.createElement('div');
       snowflake.className = 'snowflake';
       

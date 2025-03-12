@@ -1,2 +1,2 @@
 # JbaePortfolio
- Portfolio Website for Joseph Bae
+ Portfolio website for and by Joseph Bae! 
